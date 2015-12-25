@@ -1,0 +1,38 @@
+//
+//  tcb.pch
+//  tcb
+//
+//  Created by Jax on 15/11/9.
+//  Copyright © 2015年 Jax. All rights reserved.
+//
+
+#ifndef tcb_pch
+#define tcb_pch
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import "APIClientTool.h"
+#import "SVProgressHUD.h"
+#import "MJExtension.h"
+#import "MJRefresh.h"
+#import "KLCPopup.h"
+
+#define MAS_SHORTHAND
+#define MAS_SHORTHAND_GLOBALS
+#import "Masonry.h"
+
+#import "MacroDefine.h"
+#import "TCBAlertView.h"
+
+#endif
+
+#define FONT_BIG [UIFont systemFontOfSize:18]
+#define FONT_MIDDLE [UIFont systemFontOfSize:14]
+#define FONT_SMALL [UIFont systemFontOfSize:12]
+
+
+//        NSData *jsonData = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
+//        NSLog(@"JSONString === %@", [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding]);
+
+#endif

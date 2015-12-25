@@ -1,0 +1,82 @@
+ [
+      {
+      "date" : "2015-11-17 13:30:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队1",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886",
+      "doubleBox" : 0
+  
+      },
+      
+      {
+      "date" : "2015-11-17 12:47:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队2",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886",
+      "doubleBox" : 1
+      },
+      {
+      "date" : "2015-11-17 04:30:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队3",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886",
+      "doubleBox" : 0
+      },
+      {
+      "date" : "2015-11-02 12:30:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队4",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886",
+      "doubleBox" : 1
+      },
+      {
+      "date" : "2015-11-06 12:30:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队5",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886"
+      
+      },
+      {
+      "date" : "2015-11-12 12:30:20",
+      "boxModel" : "40GP",
+      "entryStatus" : 0,
+      "taskStatus" : 0,
+      "from" : "shanghai",
+      "to" : "beijing",
+      "fleetName" : "变形金刚车队6",
+      "contactPersonName" : "擎天柱",
+      "price" : 288.8,
+      "telephone" : "18888888886"
+      
+      },
+  ]

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="73" id="9au-lL-tfv" customClass="GasStationInfoCell">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="73"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9au-lL-tfv" id="6zT-2f-50a">
+                <rect key="frame" x="0.0" y="0.0" width="401" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="中化石油加油站" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYi-yI-gjf">
+                        <rect key="frame" x="18" y="8" width="105" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.9km" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QSQ-io-0Xo">
+                        <rect key="frame" x="357" y="10" width="34" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="花果山水帘洞111号" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="014-np-Pr4">
+                        <rect key="frame" x="18" y="31" width="93" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="电话:15701182581" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kHB-Ii-qUB">
+                        <rect key="frame" x="18" y="50" width="94" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="014-np-Pr4" firstAttribute="top" secondItem="eYi-yI-gjf" secondAttribute="bottom" constant="5" id="221-dG-LiS"/>
+                    <constraint firstItem="014-np-Pr4" firstAttribute="leading" secondItem="eYi-yI-gjf" secondAttribute="leading" id="7OW-f8-hKv"/>
+                    <constraint firstItem="kHB-Ii-qUB" firstAttribute="leading" secondItem="014-np-Pr4" secondAttribute="leading" id="9FG-UJ-z9A"/>
+                    <constraint firstAttribute="trailing" secondItem="QSQ-io-0Xo" secondAttribute="trailing" constant="10" id="Aho-Ps-Z2Q"/>
+                    <constraint firstItem="kHB-Ii-qUB" firstAttribute="top" secondItem="014-np-Pr4" secondAttribute="bottom" constant="5" id="Eo3-hW-o3f"/>
+                    <constraint firstItem="QSQ-io-0Xo" firstAttribute="centerY" secondItem="eYi-yI-gjf" secondAttribute="centerY" id="YLp-QI-Eb5"/>
+                    <constraint firstItem="eYi-yI-gjf" firstAttribute="leading" secondItem="6zT-2f-50a" secondAttribute="leadingMargin" constant="10" id="bpv-A2-c0T"/>
+                    <constraint firstItem="eYi-yI-gjf" firstAttribute="top" secondItem="6zT-2f-50a" secondAttribute="topMargin" id="hOE-vg-J5J"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="addressLabel" destination="014-np-Pr4" id="SaF-de-doT"/>
+                <outlet property="distanceLabel" destination="QSQ-io-0Xo" id="KWW-g6-FKT"/>
+                <outlet property="nameLabel" destination="eYi-yI-gjf" id="jQB-Uw-X0M"/>
+                <outlet property="telLabel" destination="kHB-Ii-qUB" id="aVX-q8-veO"/>
+            </connections>
+            <point key="canvasLocation" x="646.5" y="74.5"/>
+        </tableViewCell>
+    </objects>
+</document>
